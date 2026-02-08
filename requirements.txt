@@ -1,0 +1,9 @@
+duckdb >=1.0.0
+psutil >=5.9.0
+ipykernel==6.29.5
+threaded == 4.2.0
+psutil
+pyspark
+pandasql
+pyarrow
+openpyxl

@@ -1,0 +1,5 @@
+timestamp,cpu_usage_percent,container_memory_used_mb,container_memory_limit_mb,container_memory_percent,python_rss_mb,spark_ram_usage_mb,script_name
+2026-01-30 06:25:03,28.4,16091.26171875,18432.0,87.3006820678711,1448.42578125,0,duckdb_incremental_consulta_1_count_lines_100GB_5_de_15
+2026-01-30 06:25:04,24.6,16091.41015625,18432.0,87.3014873928494,1448.7578125,0,duckdb_incremental_consulta_1_count_lines_100GB_5_de_15
+2026-01-30 06:25:05,18.6,16091.45703125,18432.0,87.30174170600044,1448.77734375,0,duckdb_incremental_consulta_1_count_lines_100GB_5_de_15
+2026-01-30 06:25:06,17.8,16091.48828125,18432.0,87.30191124810112,1448.7890625,0,duckdb_incremental_consulta_1_count_lines_100GB_5_de_15

@@ -1,0 +1,23 @@
+services:
+  spark:
+    build: .
+    container_name: spark-dev
+    tty: true
+    stdin_open: true
+    mem_limit: 16g
+    memswap_limit: 16g
+    cpus: 4.0
+
+    volumes:
+      - .:/app
+      - spark_venv:/opt/venv
+      - /media/sf_HD_EXTERNO:/media/sf_HD_EXTERNO:ro
+
+    working_dir: /app
+    environment:
+      - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+      - SPARK_HOME=/opt/venv/lib/python3.8/site-packages/pyspark
+      - PATH=/opt/venv/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin:/opt/venv/lib/python3.8/site-packages/pyspark/bin:$PATH
+
+volumes:
+  spark_venv:

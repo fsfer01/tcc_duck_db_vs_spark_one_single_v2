@@ -1,0 +1,6 @@
+timestamp,cpu_usage_percent,container_memory_used_mb,container_memory_limit_mb,container_memory_percent,python_rss_mb,spark_ram_usage_mb,script_name
+2026-01-26 01:43:53,7.8,13166.17578125,18432.0,71.43107520209419,114.39453125,4532.05078125,spark_full_load_consulta_1_count_lines_10GB_8_de_15
+2026-01-26 01:43:54,30.5,13167.94921875,18432.0,71.4406967163086,114.39453125,4532.2734375,spark_full_load_consulta_1_count_lines_10GB_8_de_15
+2026-01-26 01:43:55,28.1,13168.07421875,18432.0,71.44137488471138,114.39453125,4532.2734375,spark_full_load_consulta_1_count_lines_10GB_8_de_15
+2026-01-26 01:43:56,27.4,13168.57421875,18432.0,71.44408755832248,114.39453125,4532.28125,spark_full_load_consulta_1_count_lines_10GB_8_de_15
+2026-01-26 01:43:57,24.2,13169.40234375,18432.0,71.44858042399088,114.39453125,4532.28125,spark_full_load_consulta_1_count_lines_10GB_8_de_15
